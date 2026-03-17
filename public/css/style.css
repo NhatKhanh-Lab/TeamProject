@@ -302,10 +302,9 @@ a.more:hover {
 }
 
 .hero-title {
-  margin: 0;
-  padding: 40px 0 0 30px;
-  color: #2f5233;
-  font-size: 48px;
+  font-size: 44px;
+  color: #4c7a54;
+  letter-spacing: 2px;
 }
 
 .section-title {
@@ -470,3 +469,4 @@ a.more:hover {
   border: 1px solid #b9cfa0;
   margin-bottom: 10px;
 }
+
