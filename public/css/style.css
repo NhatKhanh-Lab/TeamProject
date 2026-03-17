@@ -438,3 +438,35 @@ a.more:hover {
   margin: 0;
   text-align: center;
 }
+
+#projects {
+  padding-top: 6px;
+}
+
+.projects_intro {
+  margin: -6px 0 22px;
+  color: #4e5f46;
+}
+
+.project_meta {
+  display: block;
+  margin: 0 0 10px;
+  color: #6e8e56;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#projects .lp_box {
+  box-sizing: border-box;
+  background: #f7fbef;
+  border: 1px solid #d7e7c4;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+#projects .lp_box img {
+  background: #fff;
+  border: 1px solid #b9cfa0;
+  margin-bottom: 10px;
+}
