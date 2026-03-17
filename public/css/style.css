@@ -304,8 +304,10 @@ a.more:hover {
 .hero-title {
   margin: 0;
   padding: 40px 0 0 30px;
-  color: #2f5233;
-  font-size: 48px;
+  color: #1f3d24;
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .section-title {
