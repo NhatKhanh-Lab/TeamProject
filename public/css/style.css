@@ -279,6 +279,18 @@ a.more:hover {
   background: linear-gradient(135deg, #79b627 0%, #4c8c11 100%);
 }
 
+.hero-title {
+  margin: 0;
+  padding: 40px 0 0 30px;
+  color: #2f5233;
+  font-size: 48px;
+}
+
+.section-title {
+  color: #24451f;
+  margin-bottom: 24px;
+}
+
 #slider {
   float: right;
   width: 320px;
