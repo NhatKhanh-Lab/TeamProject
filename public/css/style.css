@@ -146,6 +146,14 @@ a.more:hover {
   line-height: 1.5em;
 }
 
+.header_link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f5ffdf;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
 #site_title h1 {
   margin: 12px 0 6px 0;
   padding: 0;
@@ -270,6 +278,20 @@ a.more:hover {
   border: none;
 }
 
+.menu_note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px 0;
+  color: #edf8df;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.menu_note a {
+  color: #f7ffd5;
+}
+
 #tooplate_middle {
   clear: both;
   width: 960px;
@@ -376,14 +398,43 @@ a.more:hover {
 #tooplate_cr {
   width: 960px;
   margin: 0 auto;
-  padding: 18px 0;
-  text-align: center;
+  padding: 24px 0 18px;
   color: #9db18d;
   background: #111;
   letter-spacing: 0.3px;
 }
 
+#tooplate_cr h4 {
+  margin: 0 0 10px;
+  color: #f2ffd8;
+  font-size: 16px;
+}
+
 #tooplate_cr a {
   color: #c8f08b;
   font-weight: bold;
+}
+
+.footer_columns {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.footer_block {
+  width: 304px;
+}
+
+.footer_block p,
+.footer_block a {
+  display: block;
+  margin: 0 0 8px;
+  color: #9db18d;
+  font-weight: normal;
+}
+
+.footer_copy {
+  margin: 0;
+  text-align: center;
 }
